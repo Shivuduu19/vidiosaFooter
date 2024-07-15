@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
