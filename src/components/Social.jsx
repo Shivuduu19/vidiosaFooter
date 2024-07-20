@@ -46,7 +46,7 @@ const Social = ({ app }) => {
         }
     }
     return (
-        <motion.a style={{ x: offsetX, y: offsetY, willChange: isHovering ? 'transform' : '' }} whileHover='hover' onMouseEnter={handleMouseEnter} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} href="" className=' bg-[#080e03] rounded-[100%] flex justify-center items-center tablet:w-[50px] w-[64px] h-[64px] relative overflow-hidden [transform-style:preserve-3d]'>
+        <motion.a style={{ x: offsetX, y: offsetY, willChange: isHovering ? 'transform' : '' }} whileHover='hover' onMouseEnter={handleMouseEnter} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} href="" className=' bg-[#080e03] rounded-[100%] flex justify-center items-center tablet:w-[50px] tablet:h-[50px] w-[64px] h-[64px] relative overflow-hidden [transform-style:preserve-3d]'>
             <motion.img style={{ x: offsetX, y: offsetY, willChange: isHovering ? 'transform' : '' }} src={app} alt="" className='z-[5] [transform-style:preserve-3d] tablet:max-w-[39%] max-w-[32px] relative inline-block align-middle border-0' />
             <motion.div variants={mousehover} className='w-[64px] z-[1] bg-[#ff9243] rounded-[100%] bottom-0 left-0 right-0 top-auto absolute'></motion.div>
         </motion.a>

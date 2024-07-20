@@ -26,7 +26,7 @@ function App() {
         <div className=''>
           <div className='w-full bg-[#0f080333] h-[1px]'></div>
 
-          <div className='w-full bmt:px-[10px] tablet:px-[20px]  px-[46px] mx-auto'>
+          <div className='w-full bmt:px-[10px] tablet:px-[20px] max-w-[1920px] bL4k:px-[66px] bm4k:px-[88px]  px-[46px] mx-auto'>
             <div className='flex tablet:flex-col justify-between'>
 
               <div className='flex flex-col bmt:px-0 btl:pl-[14px] btl:pr-[20px]   justify-between text-[#080e03] py-[51px]'>
@@ -65,7 +65,7 @@ function App() {
 
         </div>
         <div className=''>
-          <div className='w-full mx-auto tablet:p-[20px]   px-[46px] '>
+          <div className='w-full mx-auto bmt:px-[10px] tablet:px-[20px] max-w-[1920px] bL4k:px-[66px] bm4k:px-[88px]    px-[46px] '>
             <div className='grid gap-x-[16px] tablet:grid-cols-[1fr] grid-cols-[1fr_.25fr_1fr_.25fr_1fr] grid-rows-[auto] auto-cols-[1fr]'>
               <div className='flex flex-col py-[59px] '>
                 <h3 className='text-[#0e0803] mt-0 mb-[24px] font-medium text-[24px] leading-[30px]'>Service</h3>
@@ -106,14 +106,14 @@ function App() {
 
         <div className='w-full bg-[#0f080333] h-[1px]'></div>
 
-        <a href="" className='w-full py-[41px] px-[16px] max-w-full inline-block '>
+        <a href="" className='w-full py-[41px] px-[16px] bm4k:flex bm4k:justify-center bm4k:items-center max-w-full inline-block '>
           <img src={vidiosa} alt="" className='tablet:w-[60%]  align-middle max-w-full inline-block border-0 ' loading='lazy' />
         </a>
 
         <div className='w-full bg-[#0f080333] h-[1px]'></div>
 
         <div className=''>
-          <div className='mx-auto tablet:px-[20px]  px-[46px]  w-full '>
+          <div className='mx-auto bmt:px-[10px] tablet:px-[20px] max-w-[1920px] bL4k:px-[66px] bm4k:px-[88px]    px-[46px]  w-full '>
             <div className='flex  btl:flex-col btl:text-center justify-between '>
               <div className='py-[40px] '>
                 <div className='text-[18px]'>
@@ -135,6 +135,7 @@ function App() {
             </div>
           </div>
         </div>
+        <div className='w-full bg-[#0f080333] h-[1px]'></div>
       </div>
     </div>
   )
